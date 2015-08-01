@@ -1,0 +1,72 @@
+.strength .strength-red {
+    background-color: #fa8072;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+.strength .strength-green {
+    background-color: #94D400;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+/* Offline Chat CSS START ======================================================*/
+
+.offline-chat {
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+    width: 250px;
+    min-height: 200px;
+    background-color: #f2f2f2;
+    z-index: 100;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.offline-chat p, .offline-chat form{
+    padding: 0;
+    margin: 0;
+}
+
+.offline-chat h3 {
+    background-color: #0083C1;
+    padding: 0 5px;
+    color: #FFF;
+}
+
+.offline-chat input, .offline-chat textarea, .request-quote{
+    width: 100% !important;
+    display: block;
+    margin: 0 !important;
+}
+
+p.label {
+    font-weight:bolder;
+    color: #000;
+    font-size: 12px;
+}
+
+.offline-chat input[type="submit"]{
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.request-quote {
+    background-color: #108acd;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 5px;
+    text-align: center;
+}
+/* Offline Chat CSS END ========================================================*/
